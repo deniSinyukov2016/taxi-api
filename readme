@@ -1,0 +1,6 @@
+1. create MySQL database
+2. php artisan migrate
+2. php artisan db:seed
+
+Cron.
+*/5 * * * * php /path_to_project/artisan command:check_offline_status

@@ -1,0 +1,2022 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>API Reference</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/all.js"></script>
+
+
+          <script>
+        $(function() {
+            setupLanguages(["bash","javascript"]);
+        });
+      </script>
+      </head>
+
+  <body class="">
+    <a href="#" id="nav-button">
+      <span>
+        NAV
+        <img src="images/navbar.png" />
+      </span>
+    </a>
+    <div class="tocify-wrapper">
+        <img src="images/logo.png" />
+                    <div class="lang-selector">
+                                  <a href="#" data-language-name="bash">bash</a>
+                                  <a href="#" data-language-name="javascript">javascript</a>
+                            </div>
+                            <div class="search">
+              <input type="text" class="search" id="input-search" placeholder="Search">
+            </div>
+            <ul class="search-results"></ul>
+              <div id="toc">
+      </div>
+                    <ul class="toc-footer">
+                                  <li><a href='http://github.com/mpociot/documentarian'>Documentation Powered by Documentarian</a></li>
+                            </ul>
+            </div>
+    <div class="page-wrapper">
+      <div class="dark-box"></div>
+      <div class="content">
+          <!-- START_INFO -->
+<h1>Info</h1>
+<p>Welcome to the generated API reference.
+<a href="http://localhost/docs/collection.json">Get Postman Collection</a></p>
+<!-- END_INFO -->
+<h1>Accounts</h1>
+<!-- START_622f9870a556bfd57a098c3c7045df61 -->
+<h2>Store</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X POST "http://localhost/api/v1/user/accounts" \
+-H "Accept: application/json" \
+    -d "fb_id"="eveniet" \
+</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/user/accounts",
+    "method": "POST",
+    "data": {
+        "fb_id": "eveniet"
+},
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>POST api/v1/user/accounts</code></p>
+<h4>Parameters</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Status</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>fb_id</td>
+<td>string</td>
+<td>required</td>
+</tr>
+</tbody>
+</table>
+<!-- END_622f9870a556bfd57a098c3c7045df61 -->
+<!-- START_3772c8d1e94876ea004736aaf6f1118b -->
+<h2>Update</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X PUT "http://localhost/api/v1/user/accounts" \
+-H "Accept: application/json" \
+    -d "fb_id"="quisquam" \
+</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/user/accounts",
+    "method": "PUT",
+    "data": {
+        "fb_id": "quisquam"
+},
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>PUT api/v1/user/accounts</code></p>
+<h4>Parameters</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Status</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>fb_id</td>
+<td>string</td>
+<td>required</td>
+</tr>
+</tbody>
+</table>
+<!-- END_3772c8d1e94876ea004736aaf6f1118b -->
+<!-- START_04fa2eca6404f9ae9f4e5e9073f66aee -->
+<h2>Delete</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X DELETE "http://localhost/api/v1/user/accounts" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/user/accounts",
+    "method": "DELETE",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>DELETE api/v1/user/accounts</code></p>
+<!-- END_04fa2eca6404f9ae9f4e5e9073f66aee -->
+<h1>Feedback</h1>
+<!-- START_5ea6ab61bf6bf721148887c0ced29d88 -->
+<h2>Store</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X POST "http://localhost/api/v1/feedback" \
+-H "Accept: application/json" \
+    -d "body"="id" \
+</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/feedback",
+    "method": "POST",
+    "data": {
+        "body": "id"
+},
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>POST api/v1/feedback</code></p>
+<h4>Parameters</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Status</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>body</td>
+<td>string</td>
+<td>required</td>
+<td>Maximum: <code>1000</code></td>
+</tr>
+</tbody>
+</table>
+<!-- END_5ea6ab61bf6bf721148887c0ced29d88 -->
+<h1>Images</h1>
+<!-- START_796d8cbd139f7944a430e626c3e5acc4 -->
+<h2>Store</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X POST "http://localhost/api/v1/images" \
+-H "Accept: application/json" \
+    -d "file"="nesciunt" \
+    -d "position"="1" \
+    -d "old_img_id"="21" \
+</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/images",
+    "method": "POST",
+    "data": {
+        "file": "nesciunt",
+        "position": "1",
+        "old_img_id": 21
+},
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>POST api/v1/images</code></p>
+<h4>Parameters</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Status</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>file</td>
+<td>string</td>
+<td>required</td>
+</tr>
+<tr>
+<td>position</td>
+<td>integer</td>
+<td>optional</td>
+<td><code>1</code>, <code>2</code>, <code>3</code> or <code>4</code></td>
+</tr>
+<tr>
+<td>old_img_id</td>
+<td>integer</td>
+<td>optional</td>
+<td>Valid image id</td>
+</tr>
+</tbody>
+</table>
+<!-- END_796d8cbd139f7944a430e626c3e5acc4 -->
+<!-- START_91e97babe411ae6cf71ffe46be046980 -->
+<h2>Destroy</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X DELETE "http://localhost/api/v1/images/{image}" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/images/{image}",
+    "method": "DELETE",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>DELETE api/v1/images/{image}</code></p>
+<!-- END_91e97babe411ae6cf71ffe46be046980 -->
+<h1>Messages</h1>
+<!-- START_8a89d9625ace6829b2cd027e311faf0d -->
+<h2>Store</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X POST "http://localhost/api/v1/messages" \
+-H "Accept: application/json" \
+    -d "message"="molestias" \
+    -d "receiver_id"="68701" \
+</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/messages",
+    "method": "POST",
+    "data": {
+        "message": "molestias",
+        "receiver_id": 68701
+},
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>POST api/v1/messages</code></p>
+<h4>Parameters</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Status</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>message</td>
+<td>string</td>
+<td>required</td>
+</tr>
+<tr>
+<td>receiver_id</td>
+<td>integer</td>
+<td>required</td>
+</tr>
+</tbody>
+</table>
+<!-- END_8a89d9625ace6829b2cd027e311faf0d -->
+<!-- START_86e4e9bc0a74549c444aaf8d92cbfe1d -->
+<h2>Update</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X PUT "http://localhost/api/v1/messages/{message}" \
+-H "Accept: application/json" \
+    -d "read"="1" \
+</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/messages/{message}",
+    "method": "PUT",
+    "data": {
+        "read": true
+},
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>PUT api/v1/messages/{message}</code></p>
+<p><code>PATCH api/v1/messages/{message}</code></p>
+<h4>Parameters</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Status</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>read</td>
+<td>boolean</td>
+<td>optional</td>
+</tr>
+</tbody>
+</table>
+<!-- END_86e4e9bc0a74549c444aaf8d92cbfe1d -->
+<!-- START_43b19fbb63d7c4904f02ac79cc6300dc -->
+<h2>Destroy</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X DELETE "http://localhost/api/v1/messages/{message}" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/messages/{message}",
+    "method": "DELETE",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>DELETE api/v1/messages/{message}</code></p>
+<!-- END_43b19fbb63d7c4904f02ac79cc6300dc -->
+<h1>Trips</h1>
+<!-- START_b0bfe967e103764914eff25d075c572c -->
+<h2>Store</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X POST "http://localhost/api/v1/trips" \
+-H "Accept: application/json" \
+    -d "acceptor_id"="47216" \
+    -d "from"="provident" \
+    -d "to"="provident" \
+    -d "date"="provident" \
+    -d "comment"="provident" \
+    -d "description"="provident" \
+</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/trips",
+    "method": "POST",
+    "data": {
+        "acceptor_id": 47216,
+        "from": "provident",
+        "to": "provident",
+        "date": "provident",
+        "comment": "provident",
+        "description": "provident"
+},
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>POST api/v1/trips</code></p>
+<h4>Parameters</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Status</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>acceptor_id</td>
+<td>integer</td>
+<td>required</td>
+</tr>
+<tr>
+<td>from</td>
+<td>string</td>
+<td>required</td>
+</tr>
+<tr>
+<td>to</td>
+<td>string</td>
+<td>required</td>
+</tr>
+<tr>
+<td>date</td>
+<td>string</td>
+<td>required</td>
+</tr>
+<tr>
+<td>comment</td>
+<td>string</td>
+<td>required</td>
+</tr>
+<tr>
+<td>description</td>
+<td>string</td>
+<td>required</td>
+</tr>
+</tbody>
+</table>
+<!-- END_b0bfe967e103764914eff25d075c572c -->
+<!-- START_ecf5fb4113c49fd6979c221a0f8aa3c8 -->
+<h2>Show</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://localhost/api/v1/trips/{trip}" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/trips/{trip}",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">{
+    "error": "Unauthenticated."
+}</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET api/v1/trips/{trip}</code></p>
+<p><code>HEAD api/v1/trips/{trip}</code></p>
+<!-- END_ecf5fb4113c49fd6979c221a0f8aa3c8 -->
+<!-- START_18a55de27e6b4e429ded5fdedbab7cf4 -->
+<h2>Update</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X PUT "http://localhost/api/v1/trips/{trip}" \
+-H "Accept: application/json" \
+    -d "rated"="1" \
+</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/trips/{trip}",
+    "method": "PUT",
+    "data": {
+        "rated": true
+},
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>PUT api/v1/trips/{trip}</code></p>
+<p><code>PATCH api/v1/trips/{trip}</code></p>
+<h4>Parameters</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Status</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>rated</td>
+<td>boolean</td>
+<td>optional</td>
+</tr>
+</tbody>
+</table>
+<!-- END_18a55de27e6b4e429ded5fdedbab7cf4 -->
+<!-- START_819b84a295a6859066bc63328b8e8eff -->
+<h2>Destroy</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X DELETE "http://localhost/api/v1/trips/{trip}" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/trips/{trip}",
+    "method": "DELETE",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>DELETE api/v1/trips/{trip}</code></p>
+<!-- END_819b84a295a6859066bc63328b8e8eff -->
+<!-- START_6443e1fb88c6ec3284ebcf04eaceb34a -->
+<h2>Send accepted notification</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X POST "http://localhost/api/v1/send-accepted-notification/{user}" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/send-accepted-notification/{user}",
+    "method": "POST",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>POST api/v1/send-accepted-notification/{user}</code></p>
+<!-- END_6443e1fb88c6ec3284ebcf04eaceb34a -->
+<h1>Users</h1>
+<!-- START_080f3ecebb7bcc2f93284b8f5ae1ac3b -->
+<h2>Index</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://localhost/api/v1/users" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/users",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">{
+    "current_page": 1,
+    "data": [
+        {
+            "id": 1,
+            "first_name": "Admin",
+            "email": "admin@cronix.ms",
+            "device_token": "JfqR8RGwWrWMRnGqE84JfPJVjRhcudly0ou60as4KWv3Z1PUjDibPqF76iis",
+            "provider": "facebook",
+            "provider_id": "someId",
+            "phone": null,
+            "birthday": null,
+            "twitter": null,
+            "instagram": null,
+            "relationship": null,
+            "city": "Detroit",
+            "more": null,
+            "is_vehicle_owner": 1,
+            "radius": 10,
+            "lat": -118.52,
+            "lng": 35.95,
+            "transports": null,
+            "avatar": null,
+            "fb_id": null,
+            "google_id": null,
+            "created_at": "2017-09-27 16:27:29",
+            "updated_at": "2017-09-27 16:27:29",
+            "deleted_at": null,
+            "online": 0,
+            "distance": -1
+        },
+        {
+            "id": 2,
+            "first_name": "Natasha",
+            "email": "maymie25@gmail.com",
+            "device_token": "OkoEaMko1HJ9Et8PuOJdmahpxswS0UFCJ0pPIt7you4OJWdUuBABf9PjHPTW",
+            "provider": "facebook",
+            "provider_id": "someId",
+            "phone": null,
+            "birthday": null,
+            "twitter": null,
+            "instagram": null,
+            "relationship": null,
+            "city": "North Doug",
+            "more": null,
+            "is_vehicle_owner": 0,
+            "radius": 6,
+            "lat": -118.79,
+            "lng": 35.03,
+            "transports": null,
+            "avatar": {
+                "large": "http:\/\/localhost\/imagecache\/large\/e442006efa8ae2c06632bbafe1c02235.jpg",
+                "small": "http:\/\/localhost\/imagecache\/small\/e442006efa8ae2c06632bbafe1c02235.jpg"
+            },
+            "fb_id": null,
+            "google_id": null,
+            "created_at": "2017-09-27 16:27:30",
+            "updated_at": "2017-09-27 16:27:30",
+            "deleted_at": null,
+            "online": 0,
+            "distance": -1
+        },
+        {
+            "id": 3,
+            "first_name": "Giovani",
+            "email": "anna.mohr@gmail.com",
+            "device_token": "kMCWPVuYznA3ky0usT7MjIUeSDfDUYkp8pQZRgM889uxAFZUgRwoknxRGPMO",
+            "provider": "facebook",
+            "provider_id": "someId",
+            "phone": null,
+            "birthday": null,
+            "twitter": null,
+            "instagram": null,
+            "relationship": null,
+            "city": "East Burleymouth",
+            "more": null,
+            "is_vehicle_owner": 0,
+            "radius": 8,
+            "lat": -118.75,
+            "lng": 34.48,
+            "transports": null,
+            "avatar": {
+                "large": "http:\/\/localhost\/imagecache\/large\/dff87b2bfd2d370d860ee7015cb1fe1d.jpg",
+                "small": "http:\/\/localhost\/imagecache\/small\/dff87b2bfd2d370d860ee7015cb1fe1d.jpg"
+            },
+            "fb_id": null,
+            "google_id": null,
+            "created_at": "2017-09-27 16:27:30",
+            "updated_at": "2017-09-27 16:27:30",
+            "deleted_at": null,
+            "online": 0,
+            "distance": -1
+        },
+        {
+            "id": 4,
+            "first_name": "Genesis",
+            "email": "hilll.wyatt@gmail.com",
+            "device_token": "OtTgmul2u2QL0KPRpn9zKy7koqNc2nrWjBTWcmkCs1RFE02JTyIuCENOtWeu",
+            "provider": "facebook",
+            "provider_id": "someId",
+            "phone": null,
+            "birthday": null,
+            "twitter": null,
+            "instagram": null,
+            "relationship": null,
+            "city": "West Jennings",
+            "more": null,
+            "is_vehicle_owner": 1,
+            "radius": 4,
+            "lat": -119.3,
+            "lng": 33.65,
+            "transports": null,
+            "avatar": {
+                "large": "http:\/\/localhost\/imagecache\/large\/5aae5c8fe12e843864444039b15f2e41.jpg",
+                "small": "http:\/\/localhost\/imagecache\/small\/5aae5c8fe12e843864444039b15f2e41.jpg"
+            },
+            "fb_id": null,
+            "google_id": null,
+            "created_at": "2017-09-27 16:27:31",
+            "updated_at": "2017-09-27 16:27:31",
+            "deleted_at": null,
+            "online": 0,
+            "distance": -1
+        },
+        {
+            "id": 5,
+            "first_name": "Emely",
+            "email": "ottilie90@hotmail.com",
+            "device_token": "roFaocJ89F597HdcQLLcjwgbkAPo7YlRrSRMgjePpGav3ZO8H8KPR5AwN5Mk",
+            "provider": "facebook",
+            "provider_id": "someId",
+            "phone": null,
+            "birthday": null,
+            "twitter": null,
+            "instagram": null,
+            "relationship": null,
+            "city": "North Doug",
+            "more": null,
+            "is_vehicle_owner": 0,
+            "radius": 1,
+            "lat": -118.52,
+            "lng": 33.63,
+            "transports": null,
+            "avatar": {
+                "large": "http:\/\/localhost\/imagecache\/large\/028381fa5fca427f7c40df1553e96228.jpg",
+                "small": "http:\/\/localhost\/imagecache\/small\/028381fa5fca427f7c40df1553e96228.jpg"
+            },
+            "fb_id": null,
+            "google_id": null,
+            "created_at": "2017-09-27 16:27:31",
+            "updated_at": "2017-09-27 16:27:31",
+            "deleted_at": null,
+            "online": 0,
+            "distance": -1
+        },
+        {
+            "id": 6,
+            "first_name": "Ewell",
+            "email": "ykerluke@jacobs.com",
+            "device_token": "agLFeOYGT8MnMZyN9lVNbSm049NNh3ddLeZoHlSbpFNVtK0oTSTx3CWULJgL",
+            "provider": "facebook",
+            "provider_id": "someId",
+            "phone": null,
+            "birthday": null,
+            "twitter": null,
+            "instagram": null,
+            "relationship": null,
+            "city": "Efrenstad",
+            "more": null,
+            "is_vehicle_owner": 1,
+            "radius": 8,
+            "lat": -119.73,
+            "lng": 33.42,
+            "transports": null,
+            "avatar": {
+                "large": "http:\/\/localhost\/imagecache\/large\/3a5985a08befa943e4a9e9dda4b01b6d.jpg",
+                "small": "http:\/\/localhost\/imagecache\/small\/3a5985a08befa943e4a9e9dda4b01b6d.jpg"
+            },
+            "fb_id": null,
+            "google_id": null,
+            "created_at": "2017-09-27 16:27:32",
+            "updated_at": "2017-09-27 16:27:32",
+            "deleted_at": null,
+            "online": 0,
+            "distance": -1
+        },
+        {
+            "id": 7,
+            "first_name": "Jocelyn",
+            "email": "prohaska.estefania@lowe.com",
+            "device_token": "6y8kVOJI6O9RbGnM0iBNa0tHTsYyG7q0BBX9tTBIwPatQVHhCwsM92ZnvAz0",
+            "provider": "facebook",
+            "provider_id": "someId",
+            "phone": null,
+            "birthday": null,
+            "twitter": null,
+            "instagram": null,
+            "relationship": null,
+            "city": "Efrenstad",
+            "more": null,
+            "is_vehicle_owner": 0,
+            "radius": 1,
+            "lat": -119.17,
+            "lng": 34.38,
+            "transports": null,
+            "avatar": {
+                "large": "http:\/\/localhost\/imagecache\/large\/406f8fbfdc05e3efd44b0c1017e554e9.jpg",
+                "small": "http:\/\/localhost\/imagecache\/small\/406f8fbfdc05e3efd44b0c1017e554e9.jpg"
+            },
+            "fb_id": null,
+            "google_id": null,
+            "created_at": "2017-09-27 16:27:32",
+            "updated_at": "2017-09-27 16:27:32",
+            "deleted_at": null,
+            "online": 0,
+            "distance": -1
+        },
+        {
+            "id": 8,
+            "first_name": "Keira",
+            "email": "hand.rhoda@ruecker.org",
+            "device_token": "TMUfLnDgWFVSwTIYH1WS1TYIO7PXMcLskA1G73oVcUQLe4xIWyZIYcx3PZMT",
+            "provider": "facebook",
+            "provider_id": "someId",
+            "phone": null,
+            "birthday": null,
+            "twitter": null,
+            "instagram": null,
+            "relationship": null,
+            "city": "Tyrafort",
+            "more": null,
+            "is_vehicle_owner": 1,
+            "radius": 9,
+            "lat": -119.97,
+            "lng": 34.15,
+            "transports": null,
+            "avatar": {
+                "large": "http:\/\/localhost\/imagecache\/large\/f3a6716e02fe802df49fdb32a23ba262.jpg",
+                "small": "http:\/\/localhost\/imagecache\/small\/f3a6716e02fe802df49fdb32a23ba262.jpg"
+            },
+            "fb_id": null,
+            "google_id": null,
+            "created_at": "2017-09-27 16:27:33",
+            "updated_at": "2017-09-27 16:27:33",
+            "deleted_at": null,
+            "online": 0,
+            "distance": -1
+        },
+        {
+            "id": 9,
+            "first_name": "Mabelle",
+            "email": "magdalena36@boyer.net",
+            "device_token": "t2A6idB8afRoOMAhsBALSNzYxQMeWXCmDCjFmALENben4kd6gcQz7Dgi58a9",
+            "provider": "facebook",
+            "provider_id": "someId",
+            "phone": null,
+            "birthday": null,
+            "twitter": null,
+            "instagram": null,
+            "relationship": null,
+            "city": "Tyrafort",
+            "more": null,
+            "is_vehicle_owner": 0,
+            "radius": 7,
+            "lat": -118.22,
+            "lng": 34.87,
+            "transports": null,
+            "avatar": {
+                "large": "http:\/\/localhost\/imagecache\/large\/b0118f3356c2734226efecb9f1a49b2d.jpg",
+                "small": "http:\/\/localhost\/imagecache\/small\/b0118f3356c2734226efecb9f1a49b2d.jpg"
+            },
+            "fb_id": null,
+            "google_id": null,
+            "created_at": "2017-09-27 16:27:34",
+            "updated_at": "2017-09-27 16:27:34",
+            "deleted_at": null,
+            "online": 0,
+            "distance": -1
+        },
+        {
+            "id": 10,
+            "first_name": "Nicolas",
+            "email": "rmosciski@yahoo.com",
+            "device_token": "UsDxowlp2RalTkDETVuqNfmhGta71kak4siJPpYxgblM8JfFziIH512DtXzy",
+            "provider": "facebook",
+            "provider_id": "someId",
+            "phone": null,
+            "birthday": null,
+            "twitter": null,
+            "instagram": null,
+            "relationship": null,
+            "city": "Efrenstad",
+            "more": null,
+            "is_vehicle_owner": 0,
+            "radius": 5,
+            "lat": -119.13,
+            "lng": 34.58,
+            "transports": null,
+            "avatar": {
+                "large": "http:\/\/localhost\/imagecache\/large\/2a575ce5dd05e0b5a1223b2fbee361b8.jpg",
+                "small": "http:\/\/localhost\/imagecache\/small\/2a575ce5dd05e0b5a1223b2fbee361b8.jpg"
+            },
+            "fb_id": null,
+            "google_id": null,
+            "created_at": "2017-09-27 16:27:34",
+            "updated_at": "2017-09-27 16:27:34",
+            "deleted_at": null,
+            "online": 0,
+            "distance": -1
+        },
+        {
+            "id": 11,
+            "first_name": "Tamia",
+            "email": "khansen@becker.info",
+            "device_token": "RRgh0VpPwZZEEFGyGeUHcMB9qEcuTA2VJ9oP43NzIyZrkfe7a7wNhNiclk7T",
+            "provider": "facebook",
+            "provider_id": "someId",
+            "phone": null,
+            "birthday": null,
+            "twitter": null,
+            "instagram": null,
+            "relationship": null,
+            "city": "Port Margarete",
+            "more": null,
+            "is_vehicle_owner": 1,
+            "radius": 8,
+            "lat": -119.3,
+            "lng": 34.21,
+            "transports": null,
+            "avatar": {
+                "large": "http:\/\/localhost\/imagecache\/large\/dd3cb30e31ca0d7a0ce881b2d84325cc.jpg",
+                "small": "http:\/\/localhost\/imagecache\/small\/dd3cb30e31ca0d7a0ce881b2d84325cc.jpg"
+            },
+            "fb_id": null,
+            "google_id": null,
+            "created_at": "2017-09-27 16:27:34",
+            "updated_at": "2017-09-27 16:27:34",
+            "deleted_at": null,
+            "online": 0,
+            "distance": -1
+        },
+        {
+            "id": 12,
+            "first_name": "Issac",
+            "email": "huels.ruth@jaskolski.com",
+            "device_token": "nJtjnNd5Y4Z3Fv12ITN6Ac3MVpC1rmVUfLgLgMWPret0oSGQtDRz4AEwP7IB",
+            "provider": "facebook",
+            "provider_id": "someId",
+            "phone": null,
+            "birthday": null,
+            "twitter": null,
+            "instagram": null,
+            "relationship": null,
+            "city": "Efrenstad",
+            "more": null,
+            "is_vehicle_owner": 1,
+            "radius": 8,
+            "lat": -118.07,
+            "lng": 34.79,
+            "transports": null,
+            "avatar": {
+                "large": "http:\/\/localhost\/imagecache\/large\/fcf29a8a662bd1e83ebf1c5337fa6dee.jpg",
+                "small": "http:\/\/localhost\/imagecache\/small\/fcf29a8a662bd1e83ebf1c5337fa6dee.jpg"
+            },
+            "fb_id": null,
+            "google_id": null,
+            "created_at": "2017-09-27 16:27:35",
+            "updated_at": "2017-09-27 16:27:35",
+            "deleted_at": null,
+            "online": 0,
+            "distance": -1
+        },
+        {
+            "id": 13,
+            "first_name": "Meaghan",
+            "email": "evie.wunsch@wilderman.net",
+            "device_token": "xOpDwRLmfjZDk4e1nEt85EDhRe8bKdht2sboAgkKVI2RzmzAbICdKfnEmQj9",
+            "provider": "facebook",
+            "provider_id": "someId",
+            "phone": null,
+            "birthday": null,
+            "twitter": null,
+            "instagram": null,
+            "relationship": null,
+            "city": "West Jennings",
+            "more": null,
+            "is_vehicle_owner": 0,
+            "radius": 1,
+            "lat": -119.42,
+            "lng": 34.57,
+            "transports": null,
+            "avatar": {
+                "large": "http:\/\/localhost\/imagecache\/large\/d46d7cf5b26fbb97b4474fe47045bf40.jpg",
+                "small": "http:\/\/localhost\/imagecache\/small\/d46d7cf5b26fbb97b4474fe47045bf40.jpg"
+            },
+            "fb_id": null,
+            "google_id": null,
+            "created_at": "2017-09-27 16:27:36",
+            "updated_at": "2017-09-27 16:27:36",
+            "deleted_at": null,
+            "online": 0,
+            "distance": -1
+        },
+        {
+            "id": 14,
+            "first_name": "Uriel",
+            "email": "fgerlach@yahoo.com",
+            "device_token": "VVDWNMLEbY2IqpO548HwyVOB4nkY0fG5qqyeHlenowH0fDwDHlBbPW0Gz5XD",
+            "provider": "facebook",
+            "provider_id": "someId",
+            "phone": null,
+            "birthday": null,
+            "twitter": null,
+            "instagram": null,
+            "relationship": null,
+            "city": "West Jennings",
+            "more": null,
+            "is_vehicle_owner": 0,
+            "radius": 6,
+            "lat": -119.2,
+            "lng": 35.78,
+            "transports": null,
+            "avatar": {
+                "large": "http:\/\/localhost\/imagecache\/large\/3d235ad1c5244522e0c347763315d95c.jpg",
+                "small": "http:\/\/localhost\/imagecache\/small\/3d235ad1c5244522e0c347763315d95c.jpg"
+            },
+            "fb_id": null,
+            "google_id": null,
+            "created_at": "2017-09-27 16:27:36",
+            "updated_at": "2017-09-27 16:27:36",
+            "deleted_at": null,
+            "online": 0,
+            "distance": -1
+        },
+        {
+            "id": 15,
+            "first_name": "Anjali",
+            "email": "emmet95@bahringer.com",
+            "device_token": "HdmhFZXObafLfV8vDBlEK0K8YKEhOA5hMOBq38PSKQQ2HwNAFXrJsguB0ER6",
+            "provider": "facebook",
+            "provider_id": "someId",
+            "phone": null,
+            "birthday": null,
+            "twitter": null,
+            "instagram": null,
+            "relationship": null,
+            "city": "East Burleymouth",
+            "more": null,
+            "is_vehicle_owner": 1,
+            "radius": 1,
+            "lat": -118.99,
+            "lng": 35.41,
+            "transports": null,
+            "avatar": {
+                "large": "http:\/\/localhost\/imagecache\/large\/1b0d5db1a42b77eaeae75dc8edc65c47.jpg",
+                "small": "http:\/\/localhost\/imagecache\/small\/1b0d5db1a42b77eaeae75dc8edc65c47.jpg"
+            },
+            "fb_id": null,
+            "google_id": null,
+            "created_at": "2017-09-27 16:27:37",
+            "updated_at": "2017-09-27 16:27:37",
+            "deleted_at": null,
+            "online": 0,
+            "distance": -1
+        }
+    ],
+    "from": 1,
+    "last_page": 4,
+    "next_page_url": "http:\/\/localhostapi\/v1\/users?page=2",
+    "path": "http:\/\/localhostapi\/v1\/users",
+    "per_page": 15,
+    "prev_page_url": null,
+    "to": 15,
+    "total": 51
+}</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET api/v1/users</code></p>
+<p><code>HEAD api/v1/users</code></p>
+<!-- END_080f3ecebb7bcc2f93284b8f5ae1ac3b -->
+<!-- START_4194ceb9a20b7f80b61d14d44df366b4 -->
+<h2>Store</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X POST "http://localhost/api/v1/users" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/users",
+    "method": "POST",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>POST api/v1/users</code></p>
+<!-- END_4194ceb9a20b7f80b61d14d44df366b4 -->
+<!-- START_b4ea58dd963da91362c51d4088d0d4f4 -->
+<h2>Show</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://localhost/api/v1/users/{user}" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/users/{user}",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">{
+    "error": "Unauthenticated."
+}</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET api/v1/users/{user}</code></p>
+<p><code>HEAD api/v1/users/{user}</code></p>
+<!-- END_b4ea58dd963da91362c51d4088d0d4f4 -->
+<!-- START_296fac4bf818c99f6dd42a4a0eb56b58 -->
+<h2>Update</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X PUT "http://localhost/api/v1/users/{user}" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/users/{user}",
+    "method": "PUT",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>PUT api/v1/users/{user}</code></p>
+<p><code>PATCH api/v1/users/{user}</code></p>
+<!-- END_296fac4bf818c99f6dd42a4a0eb56b58 -->
+<!-- START_22354fc95c42d81a744eece68f5b9b9a -->
+<h2>Destroy</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X DELETE "http://localhost/api/v1/users/{user}" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/users/{user}",
+    "method": "DELETE",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>DELETE api/v1/users/{user}</code></p>
+<!-- END_22354fc95c42d81a744eece68f5b9b9a -->
+<!-- START_bb46159eed06696503b279a3d0c767fe -->
+<h2>Trips</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://localhost/api/v1/user/trips" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/user/trips",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">{
+    "error": "Unauthenticated."
+}</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET api/v1/user/trips</code></p>
+<p><code>HEAD api/v1/user/trips</code></p>
+<!-- END_bb46159eed06696503b279a3d0c767fe -->
+<!-- START_194708ac2fd7da748bfb13fdc7f6e1ec -->
+<h2>Following</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://localhost/api/v1/user/following" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/user/following",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">{
+    "error": "Unauthenticated."
+}</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET api/v1/user/following</code></p>
+<p><code>HEAD api/v1/user/following</code></p>
+<!-- END_194708ac2fd7da748bfb13fdc7f6e1ec -->
+<!-- START_3813f12c79b864fbf81eba31dc64d359 -->
+<h2>Followers</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://localhost/api/v1/user/followers" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/user/followers",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">{
+    "error": "Unauthenticated."
+}</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET api/v1/user/followers</code></p>
+<p><code>HEAD api/v1/user/followers</code></p>
+<!-- END_3813f12c79b864fbf81eba31dc64d359 -->
+<!-- START_dda503bb81ae20415cb5990903c0666b -->
+<h2>Conversations</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://localhost/api/v1/user/conversations" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/user/conversations",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">{
+    "error": "Unauthenticated."
+}</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET api/v1/user/conversations</code></p>
+<p><code>HEAD api/v1/user/conversations</code></p>
+<!-- END_dda503bb81ae20415cb5990903c0666b -->
+<!-- START_9ca5abaf810393a3f88180b97189a4c1 -->
+<h2>Messages</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://localhost/api/v1/user/messages/{id}" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/user/messages/{id}",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">{
+    "error": "Unauthenticated."
+}</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET api/v1/user/messages/{id}</code></p>
+<p><code>HEAD api/v1/user/messages/{id}</code></p>
+<!-- END_9ca5abaf810393a3f88180b97189a4c1 -->
+<!-- START_55c35b27a4cfe8d08575406ec2fa823d -->
+<h2>Images</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://localhost/api/v1/user/images" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/user/images",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">{
+    "error": "Unauthenticated."
+}</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET api/v1/user/images</code></p>
+<p><code>HEAD api/v1/user/images</code></p>
+<!-- END_55c35b27a4cfe8d08575406ec2fa823d -->
+<!-- START_6ecdb0d0d87d0f7774a288179b0426a2 -->
+<h2>Get members around</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://localhost/api/v1/user/get-around" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/user/get-around",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">{
+    "error": "Unauthenticated."
+}</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET api/v1/user/get-around</code></p>
+<p><code>HEAD api/v1/user/get-around</code></p>
+<!-- END_6ecdb0d0d87d0f7774a288179b0426a2 -->
+<!-- START_3ca7bd04f9b25b1c583870d90171ba77 -->
+<h2>Count new events</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://localhost/api/v1/user/count-events" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/user/count-events",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">{
+    "error": "Unauthenticated."
+}</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET api/v1/user/count-events</code></p>
+<p><code>HEAD api/v1/user/count-events</code></p>
+<!-- END_3ca7bd04f9b25b1c583870d90171ba77 -->
+<!-- START_be4d32d846a1e962a20e2e92547bf67f -->
+<h2>Testimonials</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://localhost/api/v1/user/testimonials/{user}" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/user/testimonials/{user}",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">{
+    "error": "Unauthenticated."
+}</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET api/v1/user/testimonials/{user}</code></p>
+<p><code>HEAD api/v1/user/testimonials/{user}</code></p>
+<!-- END_be4d32d846a1e962a20e2e92547bf67f -->
+<!-- START_2c3ddd3f2817f92b72a2612f710f5389 -->
+<h2>Set avatar</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X POST "http://localhost/api/v1/user/set-avatar" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/user/set-avatar",
+    "method": "POST",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>POST api/v1/user/set-avatar</code></p>
+<!-- END_2c3ddd3f2817f92b72a2612f710f5389 -->
+<!-- START_f11ee440711aab581aee209608b07d16 -->
+<h2>Delete avatar</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X POST "http://localhost/api/v1/user/delete-avatar" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/user/delete-avatar",
+    "method": "POST",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>POST api/v1/user/delete-avatar</code></p>
+<!-- END_f11ee440711aab581aee209608b07d16 -->
+<!-- START_a53b70b6bd009313f5f543fedda8d74b -->
+<h2>Add testimonial</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X POST "http://localhost/api/v1/user/add-testimonial" \
+-H "Accept: application/json" \
+    -d "user_id"="6133914" \
+    -d "rating"="6133914" \
+    -d "comment"="porro" \
+</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/user/add-testimonial",
+    "method": "POST",
+    "data": {
+        "user_id": 6133914,
+        "rating": 6133914,
+        "comment": "porro"
+},
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>POST api/v1/user/add-testimonial</code></p>
+<h4>Parameters</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Status</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>user_id</td>
+<td>integer</td>
+<td>required</td>
+</tr>
+<tr>
+<td>rating</td>
+<td>integer</td>
+<td>required</td>
+</tr>
+<tr>
+<td>comment</td>
+<td>string</td>
+<td>optional</td>
+</tr>
+</tbody>
+</table>
+<!-- END_a53b70b6bd009313f5f543fedda8d74b -->
+<!-- START_87dcf403330a27dec500670a0933be05 -->
+<h2>Follow</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X POST "http://localhost/api/v1/user/follow/{id}" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/user/follow/{id}",
+    "method": "POST",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>POST api/v1/user/follow/{id}</code></p>
+<!-- END_87dcf403330a27dec500670a0933be05 -->
+<!-- START_395f648afe75459de7c2ed83d29eaf61 -->
+<h2>Unfollow</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X POST "http://localhost/api/v1/user/unfollow/{id}" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/user/unfollow/{id}",
+    "method": "POST",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>POST api/v1/user/unfollow/{id}</code></p>
+<!-- END_395f648afe75459de7c2ed83d29eaf61 -->
+<!-- START_ed50a8e848be7e47823df5c49be1ace0 -->
+<h2>Deactivate</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X DELETE "http://localhost/api/v1/user/deactivate" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/user/deactivate",
+    "method": "DELETE",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>DELETE api/v1/user/deactivate</code></p>
+<!-- END_ed50a8e848be7e47823df5c49be1ace0 -->
+<!-- START_28e685420b0e7112e74031353ec2f4bd -->
+<h2>Me</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://localhost/api/v1/me" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/me",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">{
+    "error": "Unauthenticated."
+}</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET api/v1/me</code></p>
+<p><code>HEAD api/v1/me</code></p>
+<!-- END_28e685420b0e7112e74031353ec2f4bd -->
+<h1>general</h1>
+<!-- START_6fe98d7ced9bf8a790a2e2c2cb69689c -->
+<h2>Show the application&#039;s login form.</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://localhost/api/v1/login" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/login",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">null</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET api/v1/login</code></p>
+<p><code>HEAD api/v1/login</code></p>
+<!-- END_6fe98d7ced9bf8a790a2e2c2cb69689c -->
+<!-- START_8c0e48cd8efa861b308fc45872ff0837 -->
+<h2>Handle a login request to the application.</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X POST "http://localhost/api/v1/login" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/login",
+    "method": "POST",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>POST api/v1/login</code></p>
+<!-- END_8c0e48cd8efa861b308fc45872ff0837 -->
+<!-- START_fb2ae43e2e99ff4e90f22ba03801a735 -->
+<h2>Log the user out of the application.</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X POST "http://localhost/api/v1/logout" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/logout",
+    "method": "POST",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>POST api/v1/logout</code></p>
+<!-- END_fb2ae43e2e99ff4e90f22ba03801a735 -->
+<!-- START_82703f5860426190c1aec309db25fa45 -->
+<h2>Show the application registration form.</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://localhost/api/v1/register" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/register",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">null</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET api/v1/register</code></p>
+<p><code>HEAD api/v1/register</code></p>
+<!-- END_82703f5860426190c1aec309db25fa45 -->
+<!-- START_8ae5d428da27b2b014dc767c2f19a813 -->
+<h2>Handle a registration request for the application.</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X POST "http://localhost/api/v1/register" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/register",
+    "method": "POST",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>POST api/v1/register</code></p>
+<!-- END_8ae5d428da27b2b014dc767c2f19a813 -->
+<!-- START_f74f5d180f1ce42ff67f887b656ea4d3 -->
+<h2>Display the form to request a password reset link.</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://localhost/api/v1/password/reset" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/password/reset",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">null</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET api/v1/password/reset</code></p>
+<p><code>HEAD api/v1/password/reset</code></p>
+<!-- END_f74f5d180f1ce42ff67f887b656ea4d3 -->
+<!-- START_41c40ad08033960fe2cc3dcaf77839de -->
+<h2>Send a reset link to the given user.</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X POST "http://localhost/api/v1/password/email" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/password/email",
+    "method": "POST",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>POST api/v1/password/email</code></p>
+<!-- END_41c40ad08033960fe2cc3dcaf77839de -->
+<!-- START_1da0af59e87a37b059ee0ca68283c2a7 -->
+<h2>Display the password reset view for the given token.</h2>
+<p>If no token is present, display the link request form.</p>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://localhost/api/v1/password/reset/{token}" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/password/reset/{token}",
+    "method": "GET",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">null</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET api/v1/password/reset/{token}</code></p>
+<p><code>HEAD api/v1/password/reset/{token}</code></p>
+<!-- END_1da0af59e87a37b059ee0ca68283c2a7 -->
+<!-- START_a62f1703e9fba891a3e20ff27854aac0 -->
+<h2>Reset the given user&#039;s password.</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X POST "http://localhost/api/v1/password/reset" \
+-H "Accept: application/json"</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/password/reset",
+    "method": "POST",
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<h3>HTTP Request</h3>
+<p><code>POST api/v1/password/reset</code></p>
+<!-- END_a62f1703e9fba891a3e20ff27854aac0 -->
+<!-- START_b1a24d5a76378cfd7f6c016ca6d0decf -->
+<h2>Facebook Authorization</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET "http://localhost/api/v1/auth/{token}" \
+-H "Accept: application/json" \
+    -d "city"="recusandae" \
+    -d "lat"="recusandae" \
+    -d "lng"="recusandae" \
+    -d "device_token"="recusandae" \
+</code></pre>
+<pre><code class="language-javascript">var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "http://localhost/api/v1/auth/{token}",
+    "method": "GET",
+    "data": {
+        "city": "recusandae",
+        "lat": "recusandae",
+        "lng": "recusandae",
+        "device_token": "recusandae"
+},
+    "headers": {
+        "accept": "application/json"
+    }
+}
+
+$.ajax(settings).done(function (response) {
+    console.log(response);
+});</code></pre>
+<blockquote>
+<p>Example response:</p>
+</blockquote>
+<pre><code class="language-json">{
+    "device_token": [
+        "The device token field is required."
+    ]
+}</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET api/v1/auth/{token}</code></p>
+<p><code>HEAD api/v1/auth/{token}</code></p>
+<h4>Parameters</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Status</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>city</td>
+<td>string</td>
+<td>optional</td>
+</tr>
+<tr>
+<td>lat</td>
+<td>string</td>
+<td>optional</td>
+</tr>
+<tr>
+<td>lng</td>
+<td>string</td>
+<td>optional</td>
+</tr>
+<tr>
+<td>device_token</td>
+<td>string</td>
+<td>required</td>
+</tr>
+</tbody>
+</table>
+<!-- END_b1a24d5a76378cfd7f6c016ca6d0decf -->
+      </div>
+      <div class="dark-box">
+                        <div class="lang-selector">
+                                    <a href="#" data-language-name="bash">bash</a>
+                                    <a href="#" data-language-name="javascript">javascript</a>
+                              </div>
+                </div>
+    </div>
+  </body>
+</html>
